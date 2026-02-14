@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:18px 80px;
+    background:white;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Logo */
+.logo{
+    font-size:22px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+/* Links */
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:0.25s;
+}
+
+.nav-links a:hover{
+    color:#8e3232;
+}
+
+/* Button */
+
+.hero{
+    height:85vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url("../assets/images/pexels-leticia-alvares-1805702-14082146.jpg");
+    background-repeat: no-repeat;
+
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 80px;
+    color:white;
+}
+/* .hero-left{
+    width:50%;
+} */
+
+/* .hero-right{
+    width:40%;
+} */
+.hero-right{
+    width:40%;
+    height:620px;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(8px);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.hero-left h1{
+    /* font-size:52px; */
+    margin-bottom:20px;
+     font-size:64px;
+    font-weight:800;
+    line-height:1.1;
+     text-shadow: 0px 4px 20px rgba(0,0,0,0.35);
+}
+.hero-left{
+    max-width:600px;
+}
+.hero-left p{
+    font-size:20px;
+    margin-bottom:30px;
+    color:#ffffff;
+    
+}
+.hero-btn{
+    background-color: #8e3232;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 180px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
